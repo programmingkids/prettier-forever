@@ -10,3 +10,13 @@ git cloone https://github.com/programmingkids/prettier-forever.git
 cd prettier-forever
 ./install.sh
 ```
+
+## commands
+```
+forever list
+forever stop PID
+```
+## logs
+```
+tail -f ~/.forever/**.log
+```
