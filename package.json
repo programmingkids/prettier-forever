@@ -4,7 +4,7 @@
   "description": "",
   "main": "watch.js",
   "scripts": {
-    "start": "forever start watch.js",
+    "start": "forever start watch.js 1>/dev/null 2>&1",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
