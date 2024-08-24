@@ -2,7 +2,7 @@ var chokidar = require('chokidar');
 const { exec } = require('child_process');
 
 // settings
-const target_directory_01 = ['./../**/*.tsx'];
+const target_directory_01 = ['./../**/*.tsx', './../**/*.jsx'];
 
 const log = console.log.bind(console);
 
