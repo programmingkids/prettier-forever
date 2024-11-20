@@ -2,7 +2,17 @@ var chokidar = require('chokidar');
 const { exec } = require('child_process');
 
 // settings
-const target_directory_01 = ['./../**/*.tsx', './../**/*.jsx'];
+const target_directory_01 = [
+  './../nextjs-level1/**/*.tsx',
+  './../nextjs-level2/**/*.tsx',
+  './../nextjs-level3/**/*.tsx',
+  './../nextjs-level4/**/*.tsx',
+  './../nextjs-level5/**/*.tsx',
+  './../nextjs-level6/**/*.tsx',
+  './../nextjs-level7/**/*.tsx',
+  './../nextjs-level8/**/*.tsx',
+  './../work/tacos/**/*.tsx',
+];
 
 const log = console.log.bind(console);
 
